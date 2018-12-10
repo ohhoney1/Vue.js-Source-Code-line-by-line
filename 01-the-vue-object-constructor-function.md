@@ -1,4 +1,4 @@
-# Vue 的构造函数
+## Vue 的构造函数
 
 研究 `Vue.js` 源码时，最合理的切入点就是 `Vue` 的实例。如 `Vue.js` 的教程所说的那样，“每个 Vue 应用都是通过 `Vue` 函数创建一个新的 **Vue 实例**开始的。”
 
@@ -32,7 +32,7 @@ var vm = new Vue({
 
 调用一个对象的构造函数后返回一个新的对象，并设置一个 `this` 关键字指向该对象的返回值。
 
-`Vue` 对象构造函数用了一个参数：options。在函数内部，通过 if 语句来检测当前环境不是生成环境。
+`Vue` 对象构造函数用了一个参数：options。在函数内部，通过 `if` 语句来检测当前环境不是生成环境。
 
 如果当前环境是生成环境，因为有 `&&` 这个逻辑与运算符，表达式的后半部分就不用考虑了，整个表达式的值即为 `false`。
 
@@ -44,4 +44,4 @@ var vm = new Vue({
 
 等等， `this` 在哪定义的 `_init` 方法？其实，这不是对象构造函数内定义的函数调用。快速看下源码会发现，`_init` 方法在一个单独的 `initMixin` 函数里，被添加到 Vue 的原型上- `Vue.prototype`。
 
-下一章，我们聊聊 [initMixin]() 这个函数。
+[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/02-the-initMixin-function.md)，我们聊聊 `initMixin` 这个函数。

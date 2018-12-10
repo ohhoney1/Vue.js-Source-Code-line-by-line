@@ -7,5 +7,5 @@ The repo is creating by translating the series of 'A deep dive in the Vue.js sou
 
 ## 目录
 
-1. [Vue 构造函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/the-vue-object-constructor-function.md)
-2. [initMixin 函数]()
+1. [Vue 构造函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/01-the-vue-object-constructor-function.md)
+2. [initMixin 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/02-the-initMixin-function.md)
