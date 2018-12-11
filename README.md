@@ -9,3 +9,5 @@ The repo is creating by translating the series of 'A deep dive in the Vue.js sou
 
 1. [Vue 构造函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/01-the-vue-object-constructor-function.md)
 2. [initMixin 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/02-the-initMixin-function.md)
+3. [mergeOptions 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/03-the-mergeOptions-function.md)
+4. [dedupe 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/04-the-dedupe-function.md)

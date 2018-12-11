@@ -308,4 +308,4 @@ vm.$options = mergeOptions(
 // ...
 ```
 
-[下一章]()，继续分析 `initMixin` 函数：研究下 `mergeOptions` 函数。
+[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/03-the-mergeOptions-function.md)，继续分析 `initMixin` 函数：研究下 `mergeOptions` 函数。
