@@ -107,5 +107,5 @@ vm.$options = mergeOptions(
 // ...
 ```
 
-在以上的讨论中，现在我们理解了传给 `mergeOptions` 函数的第一个参数：`resolveConstructorOptions(vm.constructor)` 。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/05-the-mergeOptions-function(2).md)，我们将更详细的讨论 `mergeOptions` 方法。
+在以上的讨论中，现在我们理解了传给 `mergeOptions` 函数的第一个参数：`resolveConstructorOptions(vm.constructor)` 。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/06-the-mergeOptions-function(2).md)，我们将更详细的讨论 `mergeOptions` 方法。
 
