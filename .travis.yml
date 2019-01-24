@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-    - '9'
+  - '9'
 
-# Travis-CI Caching
 cache:
+  cache: yarn
   directories:
     - node_modules
 
