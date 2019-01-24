@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+    - '9'
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+install:
+  - yarn add
+
+before_script:
+
+script:
+  - yarn docs:build
+
+after_script:
+  - cd ./dist
+  - git init
+  - git config user.name "${U_NAME}"
+  - git config user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m "deploy"
+  - git push --force --quiet "https://${GH_PAGES_TOKEN}@${GH_REF}" master:${P_BRANCH}
+
+branches:
+  only:
+    - master
+# env:
+#  global:
+#    - GH_REF: github.com/ohhoney1/Vue.js-Source-Code-line-by-line
