@@ -1,4 +1,4 @@
-> 这是本系列的第五篇文章。这篇文章中，我列举下开发计划和解答一些疑惑。如果你想跳过本篇文章，请直接看[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/05-the-mergeOptions-function(2).md)。
+> 这是本系列的第五篇文章。这篇文章中，我列举下开发计划和解答一些疑惑。如果你想跳过本篇文章，请直接看[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/06-the-mergeOptions-function-2.md)。
 
 ## 更新计划
 

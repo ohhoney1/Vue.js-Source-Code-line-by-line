@@ -1,4 +1,4 @@
-## mergeOptions 函数
+## mergeOptions 函数（1）
 
 先回顾下，在声明 Vue 对象构造函数是，直接调用 `initMixin` 函数，并把 Vue 作为参数：
 
@@ -263,4 +263,4 @@ for (const key in latest) {
 
 遍历构造函数的属性 `options` 以检测它的每一项是否和 `sealed` 有不同——键在扩展时创建的。如果有任一键是不同的，这个函数就会创建一个 `modified` 对象，并会把的调用参数为 `latest[key]` `extended[key] `sealed[key]` 的  `dedupe` 方法后的结果赋值给 `modified[key]` 。
 
-`dedupe` 函数定义在其他处，在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/04-the-dedupe-function.md)我们会分析下它。
+`dedupe` 函数定义在其他处，在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/04-the-dedupe-function.md)我们会分析下它。

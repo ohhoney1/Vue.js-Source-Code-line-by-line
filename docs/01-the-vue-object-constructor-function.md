@@ -44,4 +44,4 @@ var vm = new Vue({
 
 等等， `this` 在哪定义的 `_init` 方法？其实，这不是对象构造函数内定义的函数调用。快速看下源码会发现，`_init` 方法在一个单独的 `initMixin` 函数里，被添加到 Vue 的原型上- `Vue.prototype`。
 
-[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/02-the-initMixin-function.md)，我们聊聊 `initMixin` 这个函数。
+[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/02-the-initMixin-function.md)，我们聊聊 `initMixin` 这个函数。

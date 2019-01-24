@@ -54,7 +54,7 @@ export function mergeOptions (
 
 ---
 
-### checkComponents 函数
+### checkComponents 函数
 
 `checkComponents` 函数通过枚举参数 `options` 的 `components` 属性，并在每次遍历时调用 `validateComponentName` 方法：
 
@@ -86,7 +86,7 @@ export function validateComponentName (name: string) {
 }
 ```
 
-首先，`validateComponentName` 函数会先检查 `name` 参数是否以字母且只包含字母数字的字符开头。在正则表达式中调用 `test` 方法做验证。如果验证失败，拼接一个字符串作为参数，调用 `warn` 函数。
+首先，`validateComponentName` 函数会先检查 `name` 参数是否以字母且只包含字母数字的字符开头。在正则表达式中调用 `test` 方法做验证。如果验证失败，拼接一个字符串作为参数，调用 `warn` 函数。
 
 然后，检查参数 `name` 是否是一个内置标签或者是保留标签（调用两个工具函数）：
 
@@ -125,11 +125,11 @@ export const isReservedAttribute = makeMap('key,ref,slot,slot-scope,is')
 ### makeMap 函数
 
 `makeMap` 函数建立一个映射对象，并返回一个检测某一键是否在映射对象里的函数：
-  + 参数为一个字符串和一个布尔值，
+  + 参数为一个字符串和一个布尔值，
   + 创建一个空对象，
   + 以逗号来分割字符串
   + 遍历分割后的字符串，并在映射对象中设置当前项为键，值为 true 。
 
-如果 `expectsLowerCase` 为 true，`makeMap` 返回一个函数，这个函数可以判断一个值小写后，是否为映射对象的某一个键。否则，返回的函数是判断当前这个值为否为映射对象的某一个键。
+如果 `expectsLowerCase` 为 true，`makeMap` 返回一个函数，这个函数可以判断一个值小写后，是否为映射对象的某一个键。否则，返回的函数是判断当前这个值为是否为映射对象的某一个键。
 
-[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/07-the-mergeOptions-function(3).md)，我们将继续讲解 `mergeOptions` 函数。
+[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/07-the-mergeOptions-function-3.md)，我们将继续讲解 `mergeOptions` 函数。
