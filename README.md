@@ -9,7 +9,7 @@
 
 1. [Vue 构造函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/01-the-vue-object-constructor-function.md)
 2. [initMixin 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/02-the-initMixin-function.md)
-3. [mergeOptions 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/03-the-mergeOptions-function.md)
+3. [mergeOptions 函数（1）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/03-the-mergeOptions-function(1).md)
 4. [dedupe 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/04-the-dedupe-function.md)
 5. [更新计划](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/05-update-plan.md)
 6. [mergeOptions 函数（2）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/06-the-mergeOptions-function(2).md)
