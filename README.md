@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://travis-ci.org/ohhoney1/Vue.js-Source-Code-line-by-line" rel="nofollow">
+    <img src="https://travis-ci.org/ohhoney1/Vue.js-Source-Code-line-by-line.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://github.com/vuejs/vue">
+    <img src="https://img.shields.io/badge/vue-2.5.17-brightgreen.svg" alt="vue">
+  </a>
+</p>
+
 ## 逐行级分析 Vue 源码
 
 [在线查看](https://ohhoney1.github.io/Vue.js-Source-Code-line-by-line/)
