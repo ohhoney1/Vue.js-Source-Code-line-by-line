@@ -1,0 +1,31 @@
+{
+  "name": "vue-source-code-line-by-line",
+  "version": "1.0.0",
+  "description": "learn vue source code line by line",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line.git"
+  },
+  "keywords": [
+    "vue",
+    "source-code",
+    "javascript"
+  ],
+  "author": "cnjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/issues"
+  },
+  "homepage": "https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
