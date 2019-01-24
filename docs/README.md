@@ -1,4 +1,3 @@
-# Vue.js-Source-Code-line-by-line
 ## 逐行级分析 Vue 源码
 
 这个仓库翻译自“逐行级深入探究 Vue.js 源码”系列文章，地址：[文章地址](https://medium.com/@oneminutejs/a-deep-dive-in-the-vue-js-source-code-0-table-of-contents-170dcc3c8ec)，已经过作者本人同意。目的也是为了巩固、学习 `JavaScript` 和 `Vue` 相关的知识点。
