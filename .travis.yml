@@ -36,3 +36,6 @@ branches:
 # env:
 #  global:
 #    - GH_REF: github.com/ohhoney1/Vue.js-Source-Code-line-by-line
+
+notifications:
+  email: false
