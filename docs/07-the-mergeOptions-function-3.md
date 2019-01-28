@@ -96,4 +96,4 @@ if (Array.isArray(props)) {
 }
 ```
 
-函数 `camelize` 在其他地方中声明了，我们先跳过他，先看[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/08-the-cached-function(4).md)，下一章里会给出 `camelize` 函数的解释地址。
+函数 `camelize` 在其他地方中声明了，我们先跳过他，先看[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/08-the-cached-function.md)，下一章里会给出 `camelize` 函数的解释地址。
