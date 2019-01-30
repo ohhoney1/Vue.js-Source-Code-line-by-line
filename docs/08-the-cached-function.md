@@ -23,4 +23,4 @@ export function cached<F: Function> (fn: F): F {
 
 这是一种优雅的缓存之前的函数调用的方式。通过闭包，返回的那个函数能访问到 `fn` 参数和 `cache` 变量。当每次返回的函数被调用的时候，一个新的属性或者键被添加到缓存对象 `cache` 中。如果这个属性已经存在了，函数即会返回结果值，而不是再次调用函数计算。如果属性不存在，这个函数就会调用 `fn` 函数，设置一个属性，并返回当前函数。
 
-基于此背景下，我们就有能力在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/08-the-camelize-function.md)中分析 `camelize` 函数了。
+基于此背景下，我们就有能力在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/09-the-camelize-function.md)中分析 `camelize` 函数了。
