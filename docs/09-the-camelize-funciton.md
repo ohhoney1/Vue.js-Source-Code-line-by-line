@@ -23,14 +23,14 @@ function cached<F: Function> (fn: F): F {
 }
 ```
 
-但我们上述讨论的结果是什么呢？`camelize` 给 `cache` 传递了一个函数，且调用了 [`String.replace()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace) 方法。这个方法“查找指定的字符或者正则表达式匹配项，返回被替换特定字符后的字符串”，第一个参数为要查找的字符串，第二个参数为替换后的新值。
+但我们上述讨论的结果是什么呢？`camelize` 给 `cache` 传递了一个函数，且调用了 [`String.replace()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace) 方法。这个方法“查找指定的字符或者正则表达式匹配项，返回被替换特定字符后的字符串”，第一个参数为要查找的字符串，第二个参数为替换后的新值。
 
 ```javascript
 return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : '')
 ```
 
-`String.replace()` 方法搜索一个字符前的中划线‘-’，并用一个返回新值的函数来替换它。这个函数检查参数 `c` 是否为 truthy。如果是，调用字符串的 `toUppercase()` 方法把 `c` 转换成大写形式并返回。如果不是，返回一个空字符串。
+`String.replace()` 方法搜索一个字符前的中划线‘-’，并用一个返回新值的函数来替换它。这个函数检查参数 `c` 是否为 truthy。如果是，调用字符串的 `toUppercase()` 方法把 `c` 转换成大写形式并返回。如果不是，返回一个空字符串。
 
 ---
 
-回顾下，在本系列的第七章里，我们知道了 `normalizeProps` 函数调用了 `camelize` 函数。在第八章里，我们学习了允许 `camelize` 函数缓存结果值的 `cached` 函数。最后，在本章里，我们学习了把连字符格式的字符串转成驼峰式的 `camelize` 函数。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function.md)里，我们终于可以回头来看 `normalizeProps` 函数了。
+回顾下，在本系列的第七章里，我们知道了 `normalizeProps` 函数调用了 `camelize` 函数。在第八章里，我们学习了允许 `camelize` 函数缓存结果值的 `cached` 函数。最后，在本章里，我们学习了把连字符格式的字符串转成驼峰式的 `camelize` 函数。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function.md)里，我们终于可以回头来看 `normalizeProps` 函数了。

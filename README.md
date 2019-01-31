@@ -25,3 +25,6 @@
 6. [mergeOptions 函数（2）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/06-the-mergeOptions-function-2.md)
 7. [mergeOptions 函数（3）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/07-the-mergeOptions-function-3.md)
 8. [cached 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/08-the-cached-function.md)
+9. [camelize 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/09-the-camelize-function.md)
+10. [normalizeProps 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function.md)
+11. [warn 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/11-the-warn-function.md)
