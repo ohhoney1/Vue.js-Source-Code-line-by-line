@@ -22,6 +22,7 @@ module.exports = {
       ['09-the-camelize-function', '09. camelize 函数'],
       ['10-the-normalizeProps-function', '10. normalizeProps 函数'],
       ['11-the-warn-function', '11. warn 函数'],
+      ['12-the-generateComponentTrace-function-1', '12. generateComponentTrace 函数(1)'],
     ],
     sidebarDepth: 0,
     lastUpdated: '上次更新',

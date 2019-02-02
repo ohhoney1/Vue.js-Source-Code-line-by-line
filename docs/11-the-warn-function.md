@@ -67,10 +67,10 @@ const hasConsole = typeof console !== 'undefined'
 
 接着，`warn` 函数检测 `config.silent` 为非真。如果这些条件都符合，就调用 `console.error`。
 
-`console.error` “在开发者工具里的 console 里输出错误信息”。在这，`console.error` 输出 “[Vue warn]: ” 和 `msg` `trace` 的连接字符。`msg` 来自 `warn` 函数的参数。`trace` 设置在 `warn` 函数里，用来描述以上更详细的信息。
+`console.error` “在开发者工具里的 console 里输出错误信息”。在这，`console.error` 输出 “[Vue warn]: ” 和 `msg` `trace` 的连接字符。`msg` 来自 `warn` 函数的参数。`trace` 设置在 `warn` 函数里，用来描述以上更详细的信息。
 
 ---
 
-我们回顾下，在开发环境下，`warn` 函数接收一个字符串和 Vue 实例作为参数，然后调用自定义的错误处理函数或者是默认的 `console.error`，以提示开发者某一个错误问题。默认的处理器提供了警告信息和溯源功能。
+我们回顾下，在开发环境下，`warn` 函数接收一个字符串和 Vue 实例作为参数，然后调用自定义的错误处理函数或者是默认的 `console.error`，以提示开发者某一个错误问题。默认的处理器提供了警告信息和溯源功能。
 
-[下一篇](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/12-the-generateComponentTrace-function.md)，我们将学习下 `generateComponentTrace` 函数。
+[下一篇](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/12-the-generateComponentTrace-function-1.md)，我们将学习下 `generateComponentTrace` 函数。
