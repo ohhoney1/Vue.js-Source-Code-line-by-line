@@ -28,5 +28,5 @@
 9. [camelize 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/09-the-camelize-function.md)
 10. [normalizeProps 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function.md)
 11. [warn 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/11-the-warn-function.md)
-12. [generateComponentTrace 函数（1）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/12-the-generateComponentTrae-function-1.md)
-12. [generateComponentTrace 函数（2）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/13-the-generateComponentTrae-function-2.md)
+12. [generateComponentTrace 函数（1）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/12-the-generateComponentTrace-function-1.md)
+13. [generateComponentTrace 函数（2）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/13-the-generateComponentTrace-function-2.md)

@@ -23,6 +23,7 @@ module.exports = {
       ['10-the-normalizeProps-function', '10. normalizeProps 函数'],
       ['11-the-warn-function', '11. warn 函数'],
       ['12-the-generateComponentTrace-function-1', '12. generateComponentTrace 函数(1)'],
+      ['13-the-generateComponentTrace-function-2', '13. generateComponentTrace 函数(2)'],
     ],
     sidebarDepth: 0,
     lastUpdated: '上次更新',
