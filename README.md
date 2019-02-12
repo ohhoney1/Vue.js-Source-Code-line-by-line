@@ -30,3 +30,8 @@
 11. [warn 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/11-the-warn-function.md)
 12. [generateComponentTrace 函数（1）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/12-the-generateComponentTrace-function-1.md)
 13. [generateComponentTrace 函数（2）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/13-the-generateComponentTrace-function-2.md)
+14. [repeat 函数）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/14-the-repeat-function.md)
+15. [generateComponentTrace 函数（3）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/15-the-generateComponentTrace-function-3.md)
+16. [formatComponentName 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/16-the-formatComponentName-function.md)
+17. [classify 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/17-the-classify-function.md)
+18. [warn 函数（回顾）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/18-the-warn-function.md)
