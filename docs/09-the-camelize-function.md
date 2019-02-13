@@ -33,4 +33,4 @@ return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : '')
 
 ---
 
-回顾下，在本系列的第七章里，我们知道了 `normalizeProps` 函数调用了 `camelize` 函数。在第八章里，我们学习了允许 `camelize` 函数缓存结果值的 `cached` 函数。最后，在本章里，我们学习了把连字符格式的字符串转成驼峰式的 `camelize` 函数。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function.md)里，我们终于可以回头来看 `normalizeProps` 函数了。
+回顾下，在本系列的第七章里，我们知道了 `normalizeProps` 函数调用了 `camelize` 函数。在第八章里，我们学习了允许 `camelize` 函数缓存结果值的 `cached` 函数。最后，在本章里，我们学习了把连字符格式的字符串转成驼峰式的 `camelize` 函数。在[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function-1.md)里，我们终于可以回头来看 `normalizeProps` 函数了。
