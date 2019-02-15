@@ -71,7 +71,7 @@ const options = typeof vm === 'function' && vm.cid != null
 
 ---
 
-如果 `vm` 不是一个函数或者 `vm.cid` 为 `null`，接下来我们检查 `vm._isVue` 这个标记是否为 true。你应该还记得，在 `Vue.prototype._init` 中设置 `vm._isVue` 为 true。如果成立，变量 `options` 的值被赋值为 `vm.$options` 或者 `vm.constructor.options`。如果 `vm._isVue` 这个标记为 false，变量 `options` 被赋值为 vm 或者空对象。
+如果 `vm` 不是一个函数或者 `vm.cid` 为 `null`，接下来我们检查 `vm._isVue` 这个标记是否为 true。你应该还记得，在 `Vue.prototype._init` 中设置 `vm._isVue` 为 true。如果成立，变量 `options` 的值被赋值为 `vm.$options` 或者 `vm.constructor.options`。如果 `vm._isVue` 这个标记为 false，变量 `options` 被赋值为 vm 或者空对象。
 
 ```javascript
 vm._isVue

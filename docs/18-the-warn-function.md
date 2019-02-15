@@ -32,4 +32,4 @@ warn = (msg, vm) => {
 
 ![warn](./public/images/warn.png)
 
-[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/19-the-normalizeProps-function-2.md)，继续回到 `normalizeProps` 函数（已在[第十章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function-1.md)里介绍过）。
+[下一章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/19-props-and-normalizeProps.md)，继续回到 `normalizeProps` 函数（已在[第十章](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/10-the-normalizeProps-function-1.md)里介绍过）。
