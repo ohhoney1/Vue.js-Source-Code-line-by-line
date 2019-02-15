@@ -29,7 +29,7 @@ module.exports = {
       ['16-the-formatComponentName-function', '16. formatComponentName 函数'],
       ['17-the-classify-function', '17. classify 函数'],
       ['18-the-warn-function', '18. warn 函数(回顾)'],
-      // ['18-the-generateComponentTrace-function-4', '18. generateComponentTrace 函数(4)'],
+      ['19-props-and-normalizeProps', '19. props 和 normalizeProps'],
     ],
     sidebarDepth: 0,
     lastUpdated: '上次更新',
