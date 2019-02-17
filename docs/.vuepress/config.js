@@ -30,6 +30,7 @@ module.exports = {
       ['17-the-classify-function', '17. classify 函数'],
       ['18-the-warn-function', '18. warn 函数(回顾)'],
       ['19-props-and-normalizeProps', '19. props 和 normalizeProps'],
+      ['20-the-isPlainObject-function', '20. isPlainObject 函数'],
     ],
     sidebarDepth: 0,
     lastUpdated: '上次更新',

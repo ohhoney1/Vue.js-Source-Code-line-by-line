@@ -55,7 +55,7 @@ function normalizeProps (options: Object, vm: ?Component) {
 const props = options.props
 ```
 
-**也可以是 options 对象中不存在 props 属性的情况：
+**也可以是 options 对象中不存在 props 属性的情况：**
 
 ```javascript
 if (!props) return

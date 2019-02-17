@@ -36,3 +36,4 @@
 17. [classify 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/17-the-classify-function.md)
 18. [warn 函数（回顾）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/18-the-warn-function.md)
 19. [props 和 normalizeProps](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/19-props-and-normalizeProps.md)
+20. [isPlainObject 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/20-the-isPlainObject-function.md)
