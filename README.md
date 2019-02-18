@@ -37,3 +37,4 @@
 18. [warn 函数（回顾）](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/18-the-warn-function.md)
 19. [props 和 normalizeProps](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/19-props-and-normalizeProps.md)
 20. [isPlainObject 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/20-the-isPlainObject-function.md)
+21. [toRawType 函数](https://github.com/ohhoney1/Vue.js-Source-Code-line-by-line/blob/master/docs/21-the-toRawType-function.md)
